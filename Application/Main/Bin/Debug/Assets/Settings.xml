@@ -1,0 +1,100 @@
+<?xml version="1.0" ?>
+<BezierCurves>
+    
+    <Window>
+        <Title>Bezier Curves (v1.2)</Title>
+        <XPos>200</XPos>
+        <YPos>200</YPos>
+        <Width>800</Width>
+        <Height>600</Height>
+    </Window>
+    
+    <Model ext=".ms3d">
+        <Filename>Assets/Ship.ms3d</Filename>
+    </Model>
+    
+    <Camera>
+        <Position>
+            <X>0.0f</X>
+            <Y>18.0f</Y>
+            <Z>-24.0f</Z>
+        </Position>
+        <LookAt>
+            <X>0.0f</X>
+            <Y>0.0f</Y>
+            <Z>0.0f</Z>
+        </LookAt>
+    </Camera>
+    
+    <Track>
+        <Curve>
+            <CP id="1">
+                <X>0.0f</X>
+                <Y>2.0f</Y>
+                <Z>-8.0f</Z>
+            </CP>
+            <CP id="2">
+                <X>4.41427f</X>
+                <Y>2.0f</Y>
+                <Z>-8.0f</Z>
+            </CP>
+            <CP id="3">
+                <X>8.0f</X>
+                <Y>2.0f</Y>
+                <Z>-4.41427f</Z>
+            </CP>
+            <CP id="4">
+                <X>8.0f</X>
+                <Y>2.0f</Y>
+                <Z>0.0f</Z>
+            </CP>
+        </Curve>
+        
+        <Curve>
+            <CP id="3">
+                <X>4.41427f</X>
+                <Y>2.0f</Y>
+                <Z>8.0f</Z>
+            </CP>
+            <CP id="4">
+                <X>0.0f</X>
+                <Y>2.0f</Y>
+                <Z>8.0f</Z>
+            </CP>
+        </Curve>
+        
+        <Curve>
+            <CP id="3">
+                <X>-8.0f</X>
+                <Y>2.0f</Y>
+                <Z>4.41427f</Z>
+            </CP>
+            <CP id="4">
+                <X>-8.0f</X>
+                <Y>2.0f</Y>
+                <Z>0.0f</Z>
+            </CP>
+        </Curve>
+    </Track>
+    
+    <Light>
+        <Ambient>
+            <R>0.2f</R>
+            <G>0.2f</G>
+            <B>0.2f</B>
+            <A>1.0f</A>
+        </Ambient>
+        <Diffuse>
+            <R>1.0f</R>
+            <G>1.0f</G>
+            <B>1.0f</B>
+            <A>1.0f</A>
+        </Diffuse>
+        <Position>
+            <X>0.0f</X>
+            <Y>200.0f</Y>
+            <Z>0.0f</Z>
+        </Position>
+    </Light>
+    
+</BezierCurves>
