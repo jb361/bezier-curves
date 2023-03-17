@@ -3,6 +3,9 @@ This application was submitted as coursework in the final year of my undergradua
 
 You can manipulate each curve by dragging control points with the mouse or add a new curve to the spline (using de Casteljau’s algorithm to split the curve with the greatest arc length, whilst maintaining visual tangent continuity). Objects locked to the spline take into account transfer of kinetic to potential energy as they travel – i.e. so that an object’s velocity decreases as it climbs an ascent. Three camera types are implemented: a free camera for editing the track, a 1st person camera with a view from a ship’s cockpit in the direction of the tangent to the curve and a 3rd person camera that tracks a ship using Newton and Hooke's laws.
 
+## Screenshot
+![](https://user-images.githubusercontent.com/1145329/225887671-f9ef00c2-abc9-4997-a36f-8cf09cf7ac9b.png)
+
 ## System Requirements
 A PC with Windows XP or above and OpenGL 1.3 support.
 
